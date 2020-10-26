@@ -44,8 +44,8 @@ class Main{
 
         fage[i] = age;
 
-        System.out.println("名前は"+fname+""+name);
-        System.out.println("年齢は"+age+"歳です");
+        System.out.println("名前は" + fname + " " + name + "です");
+        System.out.println("年齢は" + age + "歳です");
         if(age >= 20){
             System.out.println("成年者です");
         }else{
@@ -84,9 +84,8 @@ class Main{
         average = allage / ninzu;
 
         if(ninzu != 1){
-        System.out.println("最高齢は"+maxage+"歳です");
-        System.out.println("平均年齢は"+average+"歳です");
+        System.out.println("最高齢は" + maxage + "歳です");
+        System.out.println("平均年齢は" + average + "歳です");
         }
-        System.out.println("プログラムを終了します");
     }
 }
